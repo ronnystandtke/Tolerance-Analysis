@@ -1,0 +1,1008 @@
+v: 2
+timestamp: '2026-10-21T21:39:12.639474'
+uid: e1f83499-78ae-4048-9589-661da2fde2f0
+objects:
+- name: Spreadsheet
+  id: 2886
+  type_id: Spreadsheet::Sheet
+  properties:
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Parameter
+      group: Base
+    A1:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Target values
+          expression: '''Target values'
+      group: Base
+    D1:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Values with random tolerances
+          expression: '''Values with random tolerances'
+      group: Base
+    D2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Back panel
+          expression: '''Back panel'
+      group: Base
+    E2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Bottom panel
+          expression: '''Bottom panel'
+      group: Base
+    F2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Top panel
+          expression: '''Top panel'
+      group: Base
+    G2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Side panel left
+          expression: '''Side panel left'
+      group: Base
+    H2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Side panel right
+          expression: '''Side panel right'
+      group: Base
+    I2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Vertical divider
+          expression: '''Vertical divider'
+      group: Base
+    J2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Shelf left
+          expression: '''Shelf left'
+      group: Base
+    K2:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Shelf right
+          expression: '''Shelf right'
+      group: Base
+    A3:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Width
+          expression: '''Width'
+      group: Base
+    B3:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1000.0 mm
+          expression: =100 cm
+        Alias:
+          type: STRING
+          value: width
+      group: Base
+    D3:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1000.0 mm
+          expression: =1000 mm
+        Alias:
+          type: STRING
+          value: width_back_panel
+      group: Base
+    E3:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1000.0 mm
+          expression: =1000 mm
+        Alias:
+          type: STRING
+          value: width_bottom_panel
+      group: Base
+    F3:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1000.0 mm
+          expression: =1000 mm
+        Alias:
+          type: STRING
+          value: width_top_panel
+      group: Base
+    J3:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 473.0 mm
+          expression: =473 mm
+        Alias:
+          type: STRING
+          value: width_shelf_left
+      group: Base
+    K3:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 473.0 mm
+          expression: =473 mm
+        Alias:
+          type: STRING
+          value: width_shelf_right
+      group: Base
+    A4:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Depth
+          expression: '''Depth'
+      group: Base
+    B4:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: =25 cm
+        Alias:
+          type: STRING
+          value: depth
+      group: Base
+    A5:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Height
+          expression: '''Height'
+      group: Base
+    B5:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 500.0 mm
+          expression: =50 cm
+        Alias:
+          type: STRING
+          value: height
+      group: Base
+    G5:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 500.0 mm
+          expression: =500 mm
+        Alias:
+          type: STRING
+          value: height_side_panel_left
+      group: Base
+    H5:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 500.0 mm
+          expression: =500 mm
+        Alias:
+          type: STRING
+          value: height_side_panel_right
+      group: Base
+    I5:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 500.0 mm
+          expression: =500 mm
+        Alias:
+          type: STRING
+          value: height_vertical_divider
+      group: Base
+    A6:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Thickness
+          expression: '''Thickness'
+      group: Base
+    B6:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: =18 mm
+        Alias:
+          type: STRING
+          value: thickness
+      group: Base
+    A7:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Tolerance
+          expression: '''Tolerance'
+      group: Base
+    B7:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+          expression: =0 mm
+        Alias:
+          type: STRING
+          value: tolerance
+      group: Base
+- name: Group
+  id: 2941
+  type_id: App::DocumentObjectGroup
+  properties:
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Tables
+      group: Base
+- name: Group001
+  id: 2942
+  type_id: App::DocumentObjectGroup
+  properties:
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Parts
+      group: Base
+- name: Box
+  id: 2952
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Bottom panel
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1000.0 mm
+          expression: <<Parameter>>.width_bottom_panel
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: -250.0 mm
+          expression: -<<Parameter>>.depth
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: <<Parameter>>.depth
+      group: Box
+- name: Box001
+  id: 2955
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 464.0 mm
+          expression: <<Parameter>>.height_side_panel_left - 2 * <<Parameter>>.thickness
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Side panel left
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: -250.0 mm
+          expression: -<<Parameter>>.depth
+        Base.z:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: <<Parameter>>.depth
+      group: Box
+- name: Box002
+  id: 2956
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Top panel
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1000.0 mm
+          expression: <<Parameter>>.width_top_panel
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: -250.0 mm
+          expression: -<<Parameter>>.depth
+        Base.z:
+          type: QUANTITY
+          value: 482.0 mm
+          expression: <<Parameter>>.height - <<Parameter>>.thickness
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: <<Parameter>>.depth
+      group: Box
+- name: Box003
+  id: 2957
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 464.0 mm
+          expression: <<Parameter>>.height_side_panel_right - 2 * <<Parameter>>.thickness
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Side panel right
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 982.0 mm
+          expression: <<Parameter>>.width - <<Parameter>>.thickness
+        Base.y:
+          type: QUANTITY
+          value: -250.0 mm
+          expression: -<<Parameter>>.depth
+        Base.z:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: <<Parameter>>.depth
+      group: Box
+- name: Box004
+  id: 2958
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 500.0 mm
+          expression: <<Parameter>>.height
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Back panel
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 1000.0 mm
+          expression: <<Parameter>>.width_back_panel
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+- name: Box005
+  id: 2959
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 464.0 mm
+          expression: <<Parameter>>.height_vertical_divider - 2 * <<Parameter>>.thickness
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Vertical divider
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 491.0 mm
+          expression: (<<Parameter>>.width - <<Parameter>>.thickness) / 2
+        Base.y:
+          type: QUANTITY
+          value: -250.0 mm
+          expression: -<<Parameter>>.depth
+        Base.z:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: <<Parameter>>.depth
+      group: Box
+- name: Box006
+  id: 2960
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Shelf left
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 473.0 mm
+          expression: <<Parameter>>.width_shelf_left
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+        Base.y:
+          type: QUANTITY
+          value: -250.0 mm
+          expression: -<<Parameter>>.depth
+        Base.z:
+          type: QUANTITY
+          value: 241.0 mm
+          expression: (<<Parameter>>.height - <<Parameter>>.thickness) / 2
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: <<Parameter>>.depth
+      group: Box
+- name: Box007
+  id: 2961
+  type_id: Part::Box
+  properties:
+    AttacherEngine:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Engine 3D
+      group: Attachment
+    Height:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 18.0 mm
+          expression: <<Parameter>>.thickness
+      group: Box
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Shelf right
+      group: Base
+    Length:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 473.0 mm
+          expression: <<Parameter>>.width_shelf_right
+      group: Box
+    MapMode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Deactivated
+      group: Attachment
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 509.0 mm
+          expression: (<<Parameter>>.width + <<Parameter>>.thickness) / 2
+        Base.y:
+          type: QUANTITY
+          value: -250.0 mm
+          expression: -<<Parameter>>.depth
+        Base.z:
+          type: QUANTITY
+          value: 241.0 mm
+          expression: (<<Parameter>>.height - <<Parameter>>.thickness) / 2
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Width:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 250.0 mm
+          expression: <<Parameter>>.depth
+      group: Box
+- name: BooleanFragments
+  id: 2963
+  type_id: Part::FeaturePython
+  properties:
+    Label:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: BooleanFragments
+      group: Base
+    Mode:
+      kind: Primitive
+      paths:
+        .:
+          type: STRING
+          value: Standard
+      group: BooleanFragments
+    Placement:
+      kind: Placement
+      paths:
+        Base.x:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.y:
+          type: QUANTITY
+          value: 0.0 mm
+        Base.z:
+          type: QUANTITY
+          value: 0.0 mm
+        Rotation.Angle:
+          type: QUANTITY
+          value: 0.0 deg
+        Rotation.Axis.x:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.y:
+          type: FLOAT
+          value: 0.0
+        Rotation.Axis.z:
+          type: FLOAT
+          value: 1.0
+      group: Base
+    Proxy:
+      kind: Unknown
+      paths:
+        .:
+          type: STRING
+          value: <BOPTools.SplitFeatures.FeatureBooleanFragments object at 0x75f44a3e1be0>
+          freecad_type: BOPTools.SplitFeatures.FeatureBooleanFragments
+      group: Base
+    Tolerance:
+      kind: Primitive
+      paths:
+        .:
+          type: QUANTITY
+          value: 0.0 mm
+      group: BooleanFragments
+occurrences:
+- path: BooleanFragments
+  after: Group001
+- path: BooleanFragments/Box
+  after: BooleanFragments/Box004
+- path: BooleanFragments/Box001
+  after: BooleanFragments/Box002
+- path: BooleanFragments/Box002
+  after: BooleanFragments/Box
+- path: BooleanFragments/Box003
+  after: BooleanFragments/Box001
+- path: BooleanFragments/Box004
+  after: null
+- path: BooleanFragments/Box005
+  after: BooleanFragments/Box003
+- path: BooleanFragments/Box006
+  after: BooleanFragments/Box005
+- path: BooleanFragments/Box007
+  after: BooleanFragments/Box006
+- path: Group
+  after: null
+- path: Group/Spreadsheet
+  after: null
+- path: Group001
+  after: Group
+- path: Group001/Box
+  after: Group001/Box004
+- path: Group001/Box001
+  after: Group001/Box002
+- path: Group001/Box002
+  after: Group001/Box
+- path: Group001/Box003
+  after: Group001/Box001
+- path: Group001/Box004
+  after: null
+- path: Group001/Box005
+  after: Group001/Box003
+- path: Group001/Box006
+  after: Group001/Box005
+- path: Group001/Box007
+  after: Group001/Box006
