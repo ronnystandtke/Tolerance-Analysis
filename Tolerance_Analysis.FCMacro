@@ -1,0 +1,42 @@
+import FreeCAD
+import random
+
+doc = FreeCAD.activeDocument()
+parameter = doc.getObject("Spreadsheet")
+
+width = parameter.get("width")
+thickness = parameter.get("thickness")
+tolerance = parameter.get("tolerance")
+height = parameter.get("height")
+shelf_width = (width - 3 * thickness) / 2
+
+# let our tolerance be 3 * sigma
+# for normal distribution this should cover 99,7% of all cases, see:
+# https://en.wikipedia.org/wiki/Normal_distribution#Standard_deviation_and_coverage
+sigma = tolerance / 3
+
+
+def get_random_error():
+    return sigma * random.gauss(0, 1)
+
+
+def produce(part, length):
+    production_length = length + get_random_error()
+    parameter.set(part, str(production_length))
+
+
+parts = {
+    "width_back_panel": width,
+    "width_bottom_panel": width,
+    "width_top_panel": width,
+    "width_shelf_left": shelf_width,
+    "width_shelf_right": shelf_width,
+    "height_side_panel_left": height,
+    "height_side_panel_right": height,
+    "height_vertical_divider": height,
+}
+
+for part, length in parts.items():
+    produce(part, length)
+
+doc.recompute()
